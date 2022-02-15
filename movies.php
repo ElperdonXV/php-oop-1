@@ -1,5 +1,5 @@
 <?php 
-class movie{
+class Movie{
     public $title;
     public $genre;
     public $date;
@@ -43,12 +43,12 @@ class movie{
 }
 
 
-$firstmovie = new movie ('Spider-Man: No Way Home', '15/12/2022' ,'Jon Watts');
+$firstmovie = new Movie ('Spider-Man: No Way Home', '15/12/2022' ,'Jon Watts');
 $firstmovie->setGenre('azione, avventura, fantascienza');
 $firstmovie->setDuration(148);
 //var_dump($firstmovie);
 
-$secondmovie = new movie ('Lo Hobbit - La battaglia delle cinque armate', '17-12-2014', 'Peter Jackson');
+$secondmovie = new Movie ('Lo Hobbit - La battaglia delle cinque armate', '17-12-2014', 'Peter Jackson');
 $secondmovie->setGenre('epico, fantastico, avventura');
 $secondmovie->setDuration(144);
 //var_dump($secondmovie);
